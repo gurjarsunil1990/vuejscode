@@ -1,0 +1,18 @@
+<html>
+    <head></head>
+
+    <body>
+        <div id="app">
+            <input v-model="inputText" @input="inputText = inputText.toUpperCase()"/>
+        </div>
+        <script type="text/javascript" src="assets/vue.js"></script>
+        <script type="text/javascript">
+            var vm = new Vue({
+                el: '#app',
+                data: {
+                    inputText: ''
+                }
+            })
+        </script>
+    </body>
+</html>

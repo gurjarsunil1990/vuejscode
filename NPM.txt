@@ -1,0 +1,31 @@
+NPM : Node Package Manage
+- www.npmjs.com
+
+Package Install 
+    - Global -g / --global
+    - Local --save / --save-dev
+
+Dependancies
+    - Development --save-dev
+    - Production --save
+
+ES6 Standard : Must require
+There are a playlist of 7 videos, I recommanded to review and practice it.
+- https://www.youtube.com/watch?v=ZJZfIw3P8No&list=PL6gx4Cwl9DGBhgcpA8eTYYWg7im72LgLt
+
+
+Basic Commands NPM
+- npm install 
+- npm install packagename --save / --save-dev (Production / Development)
+- npm install -g / --global packagename (-g / -global : use anyone)
+- npm uninstall packagename --save / --save-dev (Production / Development)
+- npm list
+- npm list -g
+- npm get prefix
+
+Vue Commands
+- create project
+	- vue init simple projectname
+	- vue init webpack-simple projectname (webpack, semi-configure)
+	- vue init webpack projectname (eslint, babel, webpack, full-configured)
+

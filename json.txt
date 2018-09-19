@@ -1,0 +1,47 @@
+JSON (JavaScript Object Notation)
+
+- A lightweight data-interchange format which is easy for human to read and write
+- It contains Key and value pair
+- format : 
+    {
+        "name": "Nikhil",
+        "role": "Developer"
+    }
+
+    user = {
+        {
+            "name": "Nikhil",
+            "email": "nikhil@gmail.com",
+            "password": "hash.string",
+        },
+        {
+            "name": "Mike",
+            "email": "mike@gmail.com",
+            "password": "hash.string",
+        },
+        {
+            "name": "John",
+            "email": "john@gmail.com",
+            "password": "hash.string",
+        },
+        {
+            "name": "Daniel",
+            "email": "daniel@gmail.com",
+            "password": "hash.string",
+        }
+    }
+
+- It allows datatypes 
+    - string : "Should be in double quoted"
+    - number
+    - Object
+    - array
+    - boolean
+    - null
+
+- String escape
+    - \ : backslash escape
+    - n : New Line
+    - t : horizontal tab
+
+- Documentation : https://www.json.org/
